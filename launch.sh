@@ -15,7 +15,7 @@ cd; git clone https://github.com/Berico-Technologies/CLAVIN.git
 
 echo "Downloading placenames file from Geonames..."
 cd CLAVIN
-wget http://download.geonames.org/export/dump/allCountries.zip
+wget http://www.geonames.org/premiumdata/201806/allCountries.zip
 unzip allCountries.zip
 rm allCountries.zip
 
